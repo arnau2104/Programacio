@@ -1,15 +1,14 @@
 package Exercici6_10;
 
-public class Quadrat extends FiguraGeometrica {
+public class Rombe extends FiguraGeometrica {
 	double midaCostat;
 	
-	public Quadrat() {
+	public Rombe() {
 		
 	}
 	
-	public Quadrat(double x,double y, double midaCostat) {
+	public Rombe(double x,double y, double midaCostat) {
 		super(x,y);
-		
 		this.midaCostat=midaCostat;
 	}
 	
